@@ -29,5 +29,21 @@
 }
 
 .logo-big {
-  max-height: 21px !important;
+  max-height: 16px !important;
+}
+
+@media (min-width: 1001px) {
+  .logo-big {
+    max-height: 21px !important;
+  }
+}
+
+.sidebar-wrapper {
+    left: 0 !important;
+    position: fixed !important;
+}
+@media (min-width: 783px) {
+    #main-outlet-wrapper {
+       padding-left: var(--d-sidebar-width) !important; 
+    }   
 }
