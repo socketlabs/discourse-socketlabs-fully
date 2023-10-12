@@ -53,8 +53,8 @@
 }
 
 .contents {
-    display: flex;
-    gap: 0;    
+    display: flex !important;
+    gap: 0 !important;    
 }
 
 span.header-sidebar-toggle {
