@@ -43,7 +43,7 @@
     position: fixed !important;
 }
 @media (min-width: 783px) {
-    #main-outlet-wrapper {
+    .has-sidebar-page #main-outlet-wrapper {
        padding-left: var(--d-sidebar-width) !important; 
     }   
 }
