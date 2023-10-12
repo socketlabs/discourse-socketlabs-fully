@@ -47,3 +47,24 @@
        padding-left: var(--d-sidebar-width) !important; 
     }   
 }
+
+.wrap {
+    padding-left: calc(var(--d-sidebar-width) + 1em);
+}
+
+.contents {
+    display: flex;
+    gap: 0;    
+}
+
+span.header-sidebar-toggle {
+    position: fixed;
+    left: 0 !important;
+    margin: 10px;
+}
+
+.d-header .title {
+    position: fixed;
+    left: 0;
+    margin-left: calc(3.7em + 10px);
+}
