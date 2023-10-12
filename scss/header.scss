@@ -42,6 +42,7 @@
     left: 0 !important;
     position: fixed !important;
 }
+
 @media (min-width: 783px) {
     .has-sidebar-page #main-outlet-wrapper {
        padding-left: var(--d-sidebar-width) !important; 
@@ -72,4 +73,8 @@ span.header-sidebar-toggle {
 
 #main-outlet-wrapper .sidebar-wrapper {
     width: auto;
+}
+
+.has-sidebar-page #main-outlet-wrapper .sidebar-wrapper {
+    width: 100%;
 }
